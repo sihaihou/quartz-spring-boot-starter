@@ -11,12 +11,12 @@ import org.springframework.scheduling.support.CronTrigger;
 public class TaskQuartz {
 	
 	/**
-	 * 存放任务队列
+	 *     存放任务队列
 	 */
 	private Map<String, ScheduledFuture<?>> futuresMap;
 	
 	/**
-	 * 线程池
+	 *      线程池
 	 */
 	private ThreadPoolTaskScheduler threadPoolTaskScheduler;
 	
